@@ -1,1 +1,1 @@
-# Pyzyryab-sPortfolio
+# Pyzyryab-s Portfolio
