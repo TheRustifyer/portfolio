@@ -1,6 +1,6 @@
 # Pyzyryab's portfolio
 
-https://img.shields.io/badge/Built%20on-Flask-success?style=plastic
+[![Flask](https://img.shields.io/badge/Built%20on-Flask-success?style=plastic)
 
 Alex Vergara professional portfolio.
 
@@ -9,7 +9,7 @@ It was part of @zerotomastery Python course.
 Originally, this port was deployed on [Python Anywhere](https://www.pythonanywhere.com) and serverd from there.
 Due to a academic task, it's now moved to GitHub pages.
 
-https://img.shields.io/badge/Completed%20on-40%-important?style=plastic
+[![Completed](https://img.shields.io/badge/Completed%20on-40%-important?style=plastic)
 
 At 14/11/2020, page is under construction. For get a full front-end resource, i had to copy my `index.html`to the root folder, 
 due an issue with GitHub organigram folders.
@@ -24,7 +24,6 @@ Install Python from his main site, or if you already have it installed, use
 
 ```
 pip3 -m install Flask
-
 ```
 
 Flask have a nice documentacion on how to build your server side app.
