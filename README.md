@@ -1,82 +1,30 @@
-<!DOCTYPE html>
-<html lang="en">
+# Pyzyryab's portfolio
 
-<head>
-  <meta charset="UTF-8">
-  <meta content="IE=edge" http-equiv="X-UA-Compatible">
-  <meta content="width=device-width,initial-scale=1" name="viewport">
-  <meta content="description" name="description">
-  <meta name="google" content="notranslate" />
+https://img.shields.io/badge/Built%20on-Flask-success?style=plastic
 
-  <!-- Disable tap highlight on IE -->
-  <meta name="msapplication-tap-highlight" content="no">
-  
-  <link rel="darth-vader-icon" sizes="180x180" href="./static/darthvader.ico">
-  <link href="./static/darthvader.ico" rel="icon">
+Alex Vergara professional portfolio.
 
-  <title>Title page</title>  
+It was part of @zerotomastery Python course.
 
-<link href="./static/main.3f6952e4.css" rel="stylesheet"></head>
+Originally, this port was deployed on [Python Anywhere](https://www.pythonanywhere.com) and serverd from there.
+Due to a academic task, it's now moved to GitHub pages.
 
-<body class="minimal">
-<div id="site-border-left"></div>
-<div id="site-border-right"></div>
-<div id="site-border-top"></div>
-<div id="site-border-bottom"></div>
-<!-- Add your content of header -->
-<header>
-  <nav class="navbar  navbar-fixed-top navbar-inverse">
-    <div class="container">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
+https://img.shields.io/badge/Completed%20on-40%-important?style=plastic
 
-      <div class="collapse navbar-collapse" id="navbar-collapse">
-        <ul class="nav navbar-nav ">
-          <li><a href="./index.html" title="">01 : Home</a></li>
-          <li><a href="./works.html" title="">02 : Works</a></li>
-          <li><a href="./about.html" title="">03 : About me</a></li>
-          <li><a href="./contact.html" title="">04 : Contact</a></li>
-        </ul>
+At 14/11/2020, page is under construction. For get a full front-end resource, i had to copy my `index.html`to the root folder, 
+due an issue with GitHub organigram folders.
 
 
-      </div> 
-    </div>
-  </nav>
-</header>
-<!-- Add your site or app content here -->
-  <div class="hero-full-container background-image-container white-text-container" style="background-image: url('./static/assets/images/space.jpg')">
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12">
-          <div class="hero-full-wrapper">
-            <div class="text-content">
-              <h1>Hello,<br>
-                <span id="typed-strings">
-                  <span>I'm Alex Vergara</span>
-                  <span>Self taught software developer.</span>
-                  <span>Working as a Freelance</span>
-                </span>
-                <span id="typed"></span>
-              </h1>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
 
-<script>
-  document.addEventListener("DOMContentLoaded", function (event) {
-     type();
-     movingBackgroundImage();
-  });
-</script>
+## Builded (How to...)
 
+This portfo is made on Flask, HTML, JS and CSS.
 
-<script type="text/javascript" src="./static/main.70a66962.js"></script></body>
+Install Python from his main site, or if you already have it installed, use
 
-</html>
+```
+pip3 -m install Flask
+
+```
+
+Flask have a nice documentacion on how to build your server side app.
