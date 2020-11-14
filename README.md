@@ -1,4 +1,4 @@
-# Pyzyryab's portfolio
+# [Pyzyryab's portfolio](https://github.com/Pyzyryab/pyzyryab.github.io/blob/master/templates/index.html)
 
 ![Flask](https://img.shields.io/badge/Built%20on-Flask-success?style=plastic)
 
